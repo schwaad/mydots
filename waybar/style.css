@@ -1,0 +1,85 @@
+*, #workspaces button {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-family: "Hack Nerd Font" ;
+    font-size: 18px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+window#waybar.hidden {
+    opacity: 0.0;
+}
+
+window {
+    margin-top: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: none;
+    color: transparent;
+    background: transparent;
+}
+
+
+#pulseaudio, #clock, #memory, #cpu, #tray, #custom-reboot, #custom-shutdown, #custom-distro, #workspaces, #network {
+    color: #ffffff;
+    background: #000000;
+    border-radius: 10px;
+}
+
+#network {
+  padding-left: 5px;
+}
+
+#pulseaudio:hover, #clock:hover, #memory:hover, #cpu:hover, #custom-reboot:hover, #custom-shutdown:hover, #custom-distro:hover, #network:hover{
+    color: #000000;
+    background: #ffffff;
+}
+
+
+#custom-distro {
+    padding-right: 15px;
+    color: #1e1e2e;
+    /*background: linear-gradient(to bottom right, #f5e0dc, #f5c2e7, #eba0ac);*/
+    background: #ffffff;
+}
+
+#custom-reboot, #custom-shutdown {
+    padding-right: 15px;
+}
+
+#workspaces {
+  padding: 0;
+  padding-left: 1ex;
+  padding-right: 1ex;
+}
+
+#workspaces button {
+  all: initial;
+  border-radius: 5px;
+  padding: 0;
+}
+
+#workspaces {
+    background: transparent;
+}
+
+#workspaces button.active {
+  color: #000000;
+  background: #ffffff;
+}
+
+#workspaces button:hover {
+  color: #000000;
+  background: #ffffff;
+}
+
+#workspaces button.urgent {
+  background: #ff0000;
+}
